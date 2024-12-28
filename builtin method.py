@@ -1,0 +1,35 @@
+#example for list methods in python
+cartoons=['tom & jerry','krishna aur balaram','chota bheem','dora','shinchan','ben-ten']
+print(cartoons)
+print("after appending an element:")
+cartoons.append('oggy & cackroaches')
+print(cartoons)
+print("after inserting the element")
+cartoons.insert(2,'rool number 21')
+print(cartoons)
+print("after popping the element:")
+cartoons.pop()
+print(cartoons)
+cartoons.pop(4)
+print(cartoons)
+cartoons.remove('chota bheem')
+print(cartoons)
+print(cartoons.index('tom & jerry'))
+print("after reversing the list:")
+cartoons.reverse()
+print(cartoons)
+#example for extend
+print("------------------------------------------")
+a=[2,4,6,8,10]
+b=[1,3,5,7,9]
+print(a)
+print(b)
+a.extend(b)
+print(a)
+b.extend(a)
+print(b)
+#example for count
+count=b.count(10)
+print(count)
+count=b.count(9)
+print(count)
